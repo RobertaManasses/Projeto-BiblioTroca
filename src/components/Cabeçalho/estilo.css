@@ -1,0 +1,9 @@
+.app-header{
+	background-color: #FFFFFF;
+	margin-top: 0;
+	padding-top: 0;
+	height: 5em;
+	display: flex;
+	align-items: center;
+	padding-left: 3em;
+}

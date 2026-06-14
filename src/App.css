@@ -1,0 +1,15 @@
+.app{
+	display: flex;
+	flex-direction: row;
+}
+.container-app{
+	margin-left: 20%;
+	width: 80%;
+}
+.conteudo{
+	padding: 3em;
+}
+
+
+
+

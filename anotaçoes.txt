@@ -1,0 +1,41 @@
+paleta de cores (https://coolors.co/visualizer/dbc2cf-9fa2b2-3c7a89-2e4756-16262e):
+    #DBC2CF - rosa claro
+    #9FA2B2 - cinza claro
+    #3C7A89 - Verde
+    #2E4756 - cinza escuro
+    #16262E - quase preto
+    #EFEFEF - bege
+    #FFFFFF - branco
+    #000000 - preto
+
+
+joyceeeira
+
+
+
+O que devo entregar? 
+
+Projeto de uma interface React de um CRUD para uma aplicação útil (buscar identificar um tema/aplicação interessante) , em arquivo Zip sem a pasta "node_modules" e com documento explicando como rodar, bem como a declaração do uso de IAGen e como foi utilizado no processo de desenvolvimento.
+
+Este documento também deverá link pada repositório Git que também tenha o código do projeto.
+
+O que deverá incluir o projeto:
+
+Mínimo 12 componentes
+Implementar uma rota (pesquisar na Internet sobre e desenvolver em um dos itens do menu).
+Criar um formulário componentizado (utilizar os conceitos vistos até o momento nos vídeos de react - até vídeo 8) - incluir botões e campos, mas que não enviam informações para API. Devem criar apenas a tela.
+O acesso a tela do formulário deverá ser feito pela rota que criar.
+A apresentação será no dia 17/06/2026 (podendo ser ampliado para o dia 23/06, caso as apresentações não sejam finalizadas no dia 17/06). Deverão apresentar o projeto rodando e responder a 5 perguntas técnicas sobre o código, estrutura de um projeto node e sobre react,
+
+As perguntas serão derivadas dos conceitos dos 8 vídeos. Sugiro fortemente que estudem e assistam os mesmos. 
+
+Valor: 0 a 100.
+Itens a serem avaliados:
+
+Completude do que foi solicitado (0 a 50)
+Criação de itens extras e criatividade (validações de campos, flaticon, elementos visuais diferentes, itens que não foram ensinados no vídeo - todos devem ser pertinentes ao contexto da interface - não insiram qualquer coisa para ter nota, pois poderão perder!) (0 a 20)
+Apresentação individual (0 a 15)
+Apresentação coletiva (0 a 15).
+Caso um membro falte na apresentação, a nota total da avaliação/trabalho será zerada, pois é uma avaliação e a presença no dia da apresentação é obrigatória!
+
+Testes antes de enviar! Verifiquem e revisem a documentação. A apresentação será a interface rodando e seu código. Não precisa de slides - mas a equipe que quiser fazer, pode!

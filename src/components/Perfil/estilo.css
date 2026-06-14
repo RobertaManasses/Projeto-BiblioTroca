@@ -1,0 +1,74 @@
+body {
+  background-color: #EFEFEF;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 650px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #16262E; 
+}
+
+h1 {
+  color: #2E4756; 
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #FFFFFF; 
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #9FA2B2; 
+}
+
+.formulario input {
+  padding: 10px;
+  border: 1px solid #9FA2B2; 
+  border-radius: 5px;
+  background-color: #FFFFFF; 
+}
+
+.formulario button {
+  padding: 10px;
+  background-color: #3C7A89; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #2E4756; 
+}
+
+.perfil {
+  background-color: #DBC2CF; 
+  border: 1px solid #9FA2B2; 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+.perfil h2 {
+  text-align: center;
+  color: #2E4756; 
+}
+
+.perfil button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3C7A89; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.perfil button:hover {
+  background-color: #2E4756; 
+}
