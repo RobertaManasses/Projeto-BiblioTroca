@@ -9,10 +9,6 @@ paleta de cores (https://coolors.co/visualizer/dbc2cf-9fa2b2-3c7a89-2e4756-16262
     #000000 - preto
 
 
-joyceeeira
-
-
-
 O que devo entregar? 
 
 Projeto de uma interface React de um CRUD para uma aplicação útil (buscar identificar um tema/aplicação interessante) , em arquivo Zip sem a pasta "node_modules" e com documento explicando como rodar, bem como a declaração do uso de IAGen e como foi utilizado no processo de desenvolvimento.

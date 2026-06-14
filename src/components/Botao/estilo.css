@@ -1,0 +1,10 @@
+.btn-salvar {
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #0a687a;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}

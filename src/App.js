@@ -4,6 +4,12 @@ import MenuLateral from './components/MenuLateral';
 import EstanteLivros from './components/EstanteLivros';
 import Rodape from './components/Rodape';
 import Perfil from './components/Perfil';
+import Botao from './components/Botao';
+import FormularioPerfil from './components/FormularioPerfil';
+import Input from './components/Input';
+import CadastroLivro from './components/CadastroLivro';
+import FormularioLivro from './components/FormularioLivro';
+
 
 function App() {
 	return (
@@ -16,6 +22,8 @@ function App() {
 				<div className='conteudo'>
 					<Perfil></Perfil>
 					<EstanteLivros></EstanteLivros>
+					<Botao></Botao>
+					<CadastroLivro></CadastroLivro>
 				</div>
 
 				<Rodape></Rodape>

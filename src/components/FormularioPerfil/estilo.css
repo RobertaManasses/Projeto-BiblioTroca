@@ -1,0 +1,10 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.linha {
+  display: flex;
+  gap: 15px;
+}
