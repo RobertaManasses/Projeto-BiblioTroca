@@ -1,6 +1,6 @@
 import './estilo.css'
 
-function Input({label, type = "text", placeholder}) {
+function Input({label, type = "text", placeholder, required=false}) {
   return (
     <div className="campo">
 
@@ -9,6 +9,7 @@ function Input({label, type = "text", placeholder}) {
       <input
         type={type}
         placeholder={placeholder}
+        required={required}
       />
 
     </div>

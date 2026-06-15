@@ -11,20 +11,23 @@ function FormularioPerfil() {
         <Input
           label="Nome Completo"
           placeholder="Digite seu nome"
+          required
         />
 
         <Input
           label="Idade"
           type="number"
           placeholder="18"
+          required
         />
 
       </div>
 
       <Input
-        label="Email Acadêmico"
+        label="Email"
         type="email"
         placeholder="seuemail@gmail.com"
+        required
       />
 
       <div className="linha">
@@ -32,11 +35,13 @@ function FormularioPerfil() {
         <Input
           label="Cidade"
           placeholder="Sua cidade"
+          required
         />
 
         <Input
           label="Telefone"
           placeholder="(44) 99999-9999"
+          required
         />
 
       </div>

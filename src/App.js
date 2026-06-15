@@ -9,6 +9,8 @@ import FormularioPerfil from './components/FormularioPerfil';
 import Input from './components/Input';
 import CadastroLivro from './components/CadastroLivro';
 import FormularioLivro from './components/FormularioLivro';
+import MeusLivros from './components/MeusLivros';
+import LivroCard from './components/LivroCard';
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
 					<EstanteLivros></EstanteLivros>
 					<Botao></Botao>
 					<CadastroLivro></CadastroLivro>
+					<MeusLivros></MeusLivros>
 				</div>
 
 				<Rodape></Rodape>

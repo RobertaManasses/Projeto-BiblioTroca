@@ -22,7 +22,7 @@
   height: 120px;
   margin: auto;
   border-radius: 50%;
-  background: #e0b6d2;
+  background: #e0e0e0;
   border: 2px dashed #000000;
   display: flex;
   align-items: center;
@@ -30,6 +30,10 @@
   font-size: 40px;
 }
 
+.foto-perfil img {
+  width: 40px;
+  height:40px;
+}
 .perfil-topo h2 {
   margin-top: 15px;
   color: #1f3f53;
