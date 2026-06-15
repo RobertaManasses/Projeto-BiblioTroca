@@ -8,21 +8,27 @@ paleta de cores (https://coolors.co/visualizer/dbc2cf-9fa2b2-3c7a89-2e4756-16262
     #FFFFFF - branco
     #000000 - preto
 
-
-<<<<<<< HEAD
 Icones
 https://www.svgrepo.com/collection/education-and-learning-line-icons/
 
 
-
-
-=======
 flaticon camera: <a href="https://www.flaticon.com/br/icones-gratis/camera" title="câmera ícones">Câmera ícones criados por Good Ware - Flaticon</a>
->>>>>>> e3c79084b1add2587d6ec1cbff1c6d9bc41b4dda
+
+
+
+
+----------------------------------
+O QUE FALTA FAZER:
+
+- Pesquisa no home para filtrar os livros por nome
+- Fazer tudo ser responsivo (para pc, tablet e celular)
+
+----------------------------------
+
 
 O que devo entregar? 
 
-Projeto de uma interface React de um CRUD para uma aplicação útil (buscar identificar um tema/aplicação interessante) , em arquivo Zip sem a pasta "node_modules" e com documento explicando como rodar, bem como a declaração do uso de IAGen e como foi utilizado no processo de desenvolvimento.
+Projeto de uma interface React de um CRUD para uma aplicação útil (buscar identificar um tema/aplicação interessante), em arquivo Zip sem a pasta "node_modules" e com documento explicando como rodar, bem como a declaração do uso de IAGen e como foi utilizado no processo de desenvolvimento.
 
 Este documento também deverá link pada repositório Git que também tenha o código do projeto.
 

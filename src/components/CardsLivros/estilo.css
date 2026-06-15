@@ -63,28 +63,4 @@
   border: 1px solid #ccc;
 }
 
-/* Botão detalhes */
-.btn-details {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  background-color: #3C7A89; 
-  color: white;
-  font-size: 0.9em;
-  font-weight: bold;
-  padding: 10px 0;
-  border-radius: 10px; 
-  transition: background-color 0.2s ease, transform 0.1s ease;
-  margin-top: 5px;
-}
 
-/* Hover - passar o mouse*/
-.btn-details:hover {
-  background-color: #2E4756;
-  cursor: pointer;
-}
-
-/* Efeito de clique */
-.btn-details:active {
-  transform: scale(0.98); /* Dá um leve efeito de diminuir ao clicar */
-}

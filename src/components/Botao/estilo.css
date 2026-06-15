@@ -8,3 +8,12 @@
   cursor: pointer;
   font-size: 16px;
 }
+/* Hover - passar o mouse*/
+.btn-salvar:hover {
+  background-color: #3C7A89;
+  cursor: pointer;
+}
+/* Efeito de clique */
+.btn-salvar:active {
+  transform: scale(0.98); /* Dá um leve efeito de diminuir ao clicar */
+}

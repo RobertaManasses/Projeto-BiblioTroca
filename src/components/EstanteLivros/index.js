@@ -13,6 +13,7 @@ function EstanteLivros(){
                     titulo={livro.titulo}
                     imagem={livro.imagem}
                     vendedor={livro.vendedor.nome}
+                    estado={livro.estado_do_livro}
                     tags={livro.genero}
                     >
                 </CardsLivros>

@@ -7,7 +7,7 @@ function Logo(){
         <div className='logo'>
             <img src={logoImg} className='imagemLogo'></img>
             <div className='texto'>
-                <h1 className='titulo'>BiblioTroca</h1>
+                <h1 className='titulo-logo'>BiblioTroca</h1>
                 <p className='slogan'>Seu app de troca de livros</p>
             </div>
         </div>

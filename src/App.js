@@ -1,35 +1,41 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Cabecalho from './components/Cabeçalho';
+import Cabeçalho from './components/Cabeçalho';
 import MenuLateral from './components/MenuLateral';
-import EstanteLivros from './components/EstanteLivros';
 import Rodape from './components/Rodape';
-import Perfil from './components/Perfil';
-import Botao from './components/Botao';
-import FormularioPerfil from './components/FormularioPerfil';
-import Input from './components/Input';
-import CadastroLivro from './components/CadastroLivro';
-import FormularioLivro from './components/FormularioLivro';
+
+import Home from './pages/Home'
+import Perfil from './pages/Perfil'
+import CadastroLivros from './pages/CadastroLivros'
+import DetalhesLivros from './pages/DetalhesLivros';
 import MeusLivros from './components/MeusLivros';
-import LivroCard from './components/LivroCard';
 
 function App() {
 	return (
-		<div className="app">
-			<MenuLateral></MenuLateral>
-
-			<div className='container-app'>
-				<Cabecalho></Cabecalho>
+		<BrowserRouter>
+			<div className="app">
 				
-				<div className='conteudo'>
-					<EstanteLivros></EstanteLivros>
-					<Botao></Botao>
-					<CadastroLivro></CadastroLivro>
-					<MeusLivros></MeusLivros>
+				<MenuLateral />
+
+				<div className="container-app">
+					<Cabeçalho></Cabeçalho>
+					
+					<div className="conteudo">
+						{/* O <Routes> escolhe qual componente renderizar com base na URL */}
+						<Routes>
+							<Route path="/" element={<Home />} />
+							<Route path="/cadastroLivros" element={<CadastroLivros />} />
+							<Route path="/meusLivros" element={<MeusLivros />} />
+							<Route path="/perfil" element={<Perfil />} />
+							<Route path="/detalhes-livro/:id" element={<DetalhesLivros />} />
+						</Routes>
+					</div>
+
+					<Rodape></Rodape>
 				</div>
 
-				<Rodape></Rodape>
 			</div>
-		</div>
+		</BrowserRouter>
 	);
 }
 
