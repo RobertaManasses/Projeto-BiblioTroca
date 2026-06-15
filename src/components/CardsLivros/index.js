@@ -1,17 +1,25 @@
 import './estilo.css'
+const CAMINHO_IMAGENS = '/images/capas-livros'; /* imagens da capa esta no public para poder importar aqui */ 
 
-
-function CardsLivros(){
+function CardsLivros({id, titulo, imagem, vendedor, tags}){
     return(
-        <div className='card'>
-            <h3>A Hora da Estrela</h3>
-            <img src='./images/a_hora_da_estrela_capa.jpg'></img>
-            <ul>
-                <li>Drama</li>
-                <li>Romance</li>
-                <li>Suspense</li>
-                <li>Final Triste</li>
-            </ul>
+        <div className="card card-{id}">
+            <h3 className="titulo">{titulo}</h3>
+            
+            <div className="imagem-container">
+                <img src={`${CAMINHO_IMAGENS}/${imagem}`} alt={`Capa do livro ${titulo}`} className="imagem-capa"></img>
+            </div>
+            
+            <div className="card-rodape">
+                <p className="vendedor">Anunciado por: <span className="vendedor-nome">{vendedor}</span></p>
+                
+                <div className="tags-container">
+                    {tags.map((tag, index) => (
+                        <span key={index} className="tag">{tag}</span>
+                    ))}
+                </div>
+                <a href="/detalhes-do-livro/id-do-livro" className="btn-details">Ver mais detalhes</a>
+            </div>
         </div>
     )
 }

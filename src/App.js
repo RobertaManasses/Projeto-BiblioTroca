@@ -3,7 +3,6 @@ import Cabecalho from './components/Cabeçalho';
 import MenuLateral from './components/MenuLateral';
 import EstanteLivros from './components/EstanteLivros';
 import Rodape from './components/Rodape';
-import Perfil from './components/Perfil';
 
 function App() {
 	return (
@@ -14,7 +13,6 @@ function App() {
 				<Cabecalho></Cabecalho>
 				
 				<div className='conteudo'>
-					<Perfil></Perfil>
 					<EstanteLivros></EstanteLivros>
 				</div>
 

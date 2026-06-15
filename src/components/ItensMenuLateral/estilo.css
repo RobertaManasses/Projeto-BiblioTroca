@@ -1,0 +1,33 @@
+.itens-menu-lateral{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 150px);
+    justify-content: space-between;
+}
+
+.lista{
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+.item{
+    list-style: none;
+    display: flex;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.icone{
+	max-width: 1.5em;
+	max-height: 1.5em;	
+    margin-right: 0.5em;
+    align-self: center;
+}
+.item-texto{
+    margin: 0;
+    align-self: center;
+}
+
+.fim-pagina{
+  margin-bottom: 0;
+}
