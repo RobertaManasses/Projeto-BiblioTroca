@@ -15,7 +15,7 @@ https://www.svgrepo.com/collection/education-and-learning-line-icons/
 flaticon camera: <a href="https://www.flaticon.com/br/icones-gratis/camera" title="câmera ícones">Câmera ícones criados por Good Ware - Flaticon</a>
 
 
-
+flaticon pesquisa: <a href="https://www.flaticon.com/free-icons/search-bar" title="search bar icons">Search bar icons created by Tanah Basah - Flaticon</a>
 
 ----------------------------------
 O QUE FALTA FAZER:
@@ -30,14 +30,14 @@ O que devo entregar?
 
 Projeto de uma interface React de um CRUD para uma aplicação útil (buscar identificar um tema/aplicação interessante), em arquivo Zip sem a pasta "node_modules" e com documento explicando como rodar, bem como a declaração do uso de IAGen e como foi utilizado no processo de desenvolvimento.
 
-Este documento também deverá link pada repositório Git que também tenha o código do projeto.
+Este documento também deverá link pada repositório Git que também tenha o código do projeto. ok
 
 O que deverá incluir o projeto:
 
 Mínimo 12 componentes
-Implementar uma rota (pesquisar na Internet sobre e desenvolver em um dos itens do menu).
-Criar um formulário componentizado (utilizar os conceitos vistos até o momento nos vídeos de react - até vídeo 8) - incluir botões e campos, mas que não enviam informações para API. Devem criar apenas a tela.
-O acesso a tela do formulário deverá ser feito pela rota que criar.
+Implementar uma rota (pesquisar na Internet sobre e desenvolver em um dos itens do menu). ok
+Criar um formulário componentizado (utilizar os conceitos vistos até o momento nos vídeos de react - até vídeo 8) - incluir botões e campos, mas que não enviam informações para API. Devem criar apenas a tela. ok
+O acesso a tela do formulário deverá ser feito pela rota que criar. ok
 A apresentação será no dia 17/06/2026 (podendo ser ampliado para o dia 23/06, caso as apresentações não sejam finalizadas no dia 17/06). Deverão apresentar o projeto rodando e responder a 5 perguntas técnicas sobre o código, estrutura de um projeto node e sobre react,
 
 As perguntas serão derivadas dos conceitos dos 8 vídeos. Sugiro fortemente que estudem e assistam os mesmos. 

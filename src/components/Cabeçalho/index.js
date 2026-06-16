@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom'; /* Para mudar o texto dependendo da rota */
-import './estilo.css'
+import './estilo.css';
+import pesquisa from "../../images/pesquisa.png";
 
 
 function Cabecalho(){
@@ -29,7 +30,17 @@ function Cabecalho(){
     <header className="app-header">
       {/* Aqui ele renderiza o resultado da função */}
       <h2>{obterTitulo()}</h2>
-        </header>
+
+    {location.pathname === '/' && (
+    <div className="barra-pesquisa">
+        <img src={pesquisa} alt="Pesquisar" />
+        <input
+        type="text"
+        placeholder="Pesquisar livros"
+        />
+    </div>
+    )}
+    </header>
   );
 
 }

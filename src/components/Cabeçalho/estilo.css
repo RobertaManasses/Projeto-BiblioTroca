@@ -1,9 +1,29 @@
-.app-header{
+.app-header {
 	background-color: #FFFFFF;
-	margin-top: 0;
-	padding-top: 0;
 	height: 5em;
 	display: flex;
 	align-items: center;
-	padding-left: 3em;
+	justify-content: space-between;
+	padding: 0 3em;
+}
+
+.barra-pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+.barra-pesquisa img {
+  width: 18px;
+  height: 18px;
+}
+
+.barra-pesquisa input {
+  border: none;
+  outline: none;
+  width: 250px;
 }
