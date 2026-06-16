@@ -25,6 +25,7 @@ BiblioTroca é uma aplicação web desenvolvida em React, HTML e CSS com o objet
 ```text
 src/
 │
+├── banco-de-dados/
 ├── components/
 │   ├── Botao
 │   ├── Cabecalho
@@ -32,10 +33,10 @@ src/
 │   └── ...
 │
 ├── pages/
-│   ├── PaginaInicial
+│   ├── Home
 │   ├── CadastroLivros
 │   ├── Perfil
-│   └── DetalhesLivro
+│   └── ...
 │
 ├── images/
 ├── json/
