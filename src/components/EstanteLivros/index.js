@@ -4,10 +4,16 @@ import CardsLivros from '../CardsLivros'
 import { livros } from '../../banco-de-dados/livros'
 
 
-function EstanteLivros(){
+function EstanteLivros({ textoPesquisa }){
+
+    const livrosFiltrados = livros.filter((livro) =>
+        livro.titulo
+        .toLowerCase()
+        .includes(textoPesquisa.toLowerCase())
+    )
     return(
         <div className='estante-livros'>
-            { livros.map( livro => (
+            { livrosFiltrados.map( livro => (
                 <CardsLivros 
                     id={livro.id}
                     titulo={livro.titulo}

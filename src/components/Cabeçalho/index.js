@@ -3,7 +3,7 @@ import './estilo.css';
 import pesquisa from "../../images/pesquisa.png";
 
 
-function Cabecalho(){
+function Cabecalho({ setTextoPesquisa }){
     const location = useLocation(); /* Pega a rota */
 
     // Função para definir o título com base no caminho da URL
@@ -38,6 +38,7 @@ function Cabecalho(){
         <input
         type="text"
         placeholder="Pesquisar livros"
+        onChange={(e) => setTextoPesquisa(e.target.value)}
         />
     </div>
     )}

@@ -1,9 +1,9 @@
 import EstanteLivros from '../components/EstanteLivros';
 
-function Home() {
+function Home({ textoPesquisa }) {
   return (
     <div>
-      <EstanteLivros />
+      <EstanteLivros textoPesquisa={textoPesquisa} />
     </div>
   );
 }

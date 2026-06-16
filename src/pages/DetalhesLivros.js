@@ -11,7 +11,7 @@ function DetalhesLivros() {
 
     if (!livro) {
         return (
-        <div style={{ padding: '20px' }}>
+        <div>
             <h2>Livro não encontrado!</h2>
             <Link to="/">Voltar para a Página Inicial</Link>
         </div>
@@ -19,7 +19,7 @@ function DetalhesLivros() {
     }
 
     return (
-        <div style={{ padding: '30px' }}>
+        <div>
             <DetalhesLivroContainer livro={livro} />
             
             <Link to="/" className="btn-voltar">

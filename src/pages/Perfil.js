@@ -2,7 +2,7 @@ import ComponentePerfil from '../components/Perfil';
 
 function Perfil() {
   return (
-    <div style={{ padding: '20px' }}>
+    <div>
       <ComponentePerfil></ComponentePerfil>
     </div>
   );
