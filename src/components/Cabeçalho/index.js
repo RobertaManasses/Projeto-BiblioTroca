@@ -31,6 +31,7 @@ function Cabecalho(){
       {/* Aqui ele renderiza o resultado da função */}
       <h2>{obterTitulo()}</h2>
 
+
     {location.pathname === '/' && (
     <div className="barra-pesquisa">
         <img src={pesquisa} alt="Pesquisar" />

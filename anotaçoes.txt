@@ -18,13 +18,6 @@ flaticon camera: <a href="https://www.flaticon.com/br/icones-gratis/camera" titl
 flaticon pesquisa: <a href="https://www.flaticon.com/free-icons/search-bar" title="search bar icons">Search bar icons created by Tanah Basah - Flaticon</a>
 
 ----------------------------------
-O QUE FALTA FAZER:
-
-- Pesquisa no home para filtrar os livros por nome
-- Fazer tudo ser responsivo (para pc, tablet e celular)
-
-----------------------------------
-
 
 O que devo entregar? 
 
