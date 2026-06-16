@@ -1,6 +1,6 @@
 # Projeto BiblioTroca
 
-BiblioTroca é uma aplicação web desenvolvida em React, HTML e CSS com o objetivo de facilitar a troca e o compartilhamento de livros entre usuários. A plataforma permite visualizar livros disponíveis, acessar detalhes de cada obra, cadastrar novos livros e visualizar perfil. Foi desenvolvido para fins acadêmico da disciplina de Desenvolvimento de Aplicações Web para Internet. 
+BiblioTroca é uma aplicação web desenvolvida em React, HTML e CSS com o objetivo de facilitar a troca e o compartilhamento de livros entre usuários. A plataforma permite visualizar livros disponíveis, acessar detalhes de cada obra, cadastrar novos livros e visualizar perfil do usuário. Foi desenvolvido para fins acadêmico da disciplina de Desenvolvimento de Aplicações Web para Internet. 
 
 ## Funcionalidades
 
