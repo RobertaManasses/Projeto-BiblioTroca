@@ -82,7 +82,3 @@ http://localhost:3000
 * Joyce Moura
 * Gabriel Berno
 
-
-## 📚 Projeto Acadêmico
-
-Projeto desenvolvido para fins educacionais, visando a aplicação prática dos conceitos de desenvolvimento web com React.
